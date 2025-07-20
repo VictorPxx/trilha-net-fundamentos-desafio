@@ -52,8 +52,9 @@ while (exibirMenu)
             break;
     }
 
+    //*IMPLEMENTAÇÃO*
     if (exibirMenu != false)
-    {    
+    {
         Console.WriteLine("Pressione uma tecla para continuar");
         Console.ReadLine();
     }
