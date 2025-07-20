@@ -52,8 +52,11 @@ while (exibirMenu)
             break;
     }
 
-    Console.WriteLine("Pressione uma tecla para continuar");
-    Console.ReadLine();
+    if (exibirMenu != false)
+    {    
+        Console.WriteLine("Pressione uma tecla para continuar");
+        Console.ReadLine();
+    }
 }
 
 Console.WriteLine("O programa se encerrou");
